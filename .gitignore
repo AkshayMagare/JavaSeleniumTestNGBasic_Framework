@@ -1,0 +1,8 @@
+
+.idea/**/*
+/ParentProject/.idea/**/*
+ParentProject/.idea/compiler.xml
+ParentProject/.idea/vcs.xml
+ParentProject/.idea/vcs.xml
+ParentProject/TestFramework/src/main/main.iml
+ParentProject/TestProject/src/main/main1.iml

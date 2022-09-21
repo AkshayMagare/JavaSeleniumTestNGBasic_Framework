@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="extentListeners.ExtentListeners"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="test_cases.HM_Redirection_Of_HM_Logo"/>
+      <class name="test_cases.HM_Add_Product_In_Favourite_List"/>
+      <class name="test_cases.Shopping_Category"/>
+      <class name="test_cases.HM_Test_AboutCompany"/>
+      <class name="test_cases.HM_Search_Product_Functionality_on_HM"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
